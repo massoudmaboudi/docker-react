@@ -24,6 +24,6 @@ jobs:
           application_name: frontend
           environment_name: Frontend-env
           existing_bucket_name: elasticbeanstalk-ap-southeast-1-138100516244
-          reguin: ap-southeast-1
+          region: ap-southeast-1
           version_label: ${{github.sha}}
           deployment_package: deploy.zip
